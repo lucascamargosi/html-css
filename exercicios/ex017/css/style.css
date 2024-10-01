@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*Padrao*/
+@import url();
+
+body {
+    font-family: 'work sans' Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 240, 185);
+    /* 
+    Medidas absolutas:
+    cm, mm, in(polegada), px(recomendado e usado), pt(ponto), pc 
+    
+    Medidas relativas:
+    em(altura m/recomendada e usado), ex(altura x),rem, vw(altura da tela), vh, % 
+    */
+    font-size: 1em;
+
+    /*ligther normal bold bolder */
+
+}
+
+h1 {
+
+    /* shorthand fonts
+    -font-style | font-weigth | font-size \ font-family 
+    font-family: 'work sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic; */
+    font: italic bolder 3em 'work sans, sans-serif';
+}
+h2{
+    font: bold 2em 'work sans';
+}
