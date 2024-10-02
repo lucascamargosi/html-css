@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
+             */
+            /* Shorthand background
+            color > image > position > repeat > size > attachment
+            
+            */
 
+            background: black url(imagens/wallpaper002.jpg) center center/ cover no-repeat fixed;
         }
         
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,9 +39,10 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p>    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p> 
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p> 
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae possimus voluptatem sed corrupti perspiciatis dolorem maxime pariatur laboriosam? Neque, quos. Esse in, ea laboriosam sequi eaque nulla eius ullam aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel veniam perferendis rerum odio dolores aliquam, iusto dolore ad dolorum assumenda quos est velit, doloremque illum natus provident animi numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam sed, sequi nesciunt provident quam quas magnam ullam cupiditate esse id dolorum cumque. Corrupti omnis quae et ratione dolores eum!</p> 
     </main>
 </body>
 </html>
