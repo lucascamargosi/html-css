@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    /* Seus estilos aqui */
+  }
+
+body {
+    background-color: #84E1AD;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+
+
+.menu-item {
+    padding: 10px;
+}
+
+.conteudo {
+    border: 300px #0fad59;
+    box-shadow: #193008 0px 5px 9px 0px;
+    margin: 0px 100px 20px;
+    padding: 10px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header {
+    background-image: linear-gradient(to top, #123b25, #3CD983);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+
+    padding: 10px;
+    margin: 0px;
+
+
+}
+
+h2 {
+    color: #175032;
+    background-color: #3cd98344;
+    background-image: linear-gradient(to left, #ffffff, #5ceea000);
+}
+
+nav {
+    text-align: left;
+    color: white;
+    /* background-color: #175032; */
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav>a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    font-size: 1.2em;
+  }
+#meu-div{
+   
+    border: 10px solid #4e742b; /* Cor e espessura da borda */
+    border-end-end-radius: 0px;
+    
+}
+main {
+
+    background-color: white;
+    text-align: center;
+    color: black;
+    text-align: justify;
+    text-indent: 30px;
+
+}
+
+main>div>h1 {
+    color: #175032;
+}
+
+section {
+    border: 2px solid #ccc;
+
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+aside {
+    background-color: #3CD983;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 1px;
+    box-shadow: 3px 4px 4px 8px rgba(0, 0, 0, 0.781);
+}
+
+aside>p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+aside>div {
+    color: white;
+    background-color: #0fad59;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li::before {
+    content: "✓";
+    margin-right: 2px;
+}
+
+footer {
+    background-color: #175032;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
