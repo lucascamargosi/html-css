@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Frases de Maquiavel</h2>
+            <p>Há três espécies de cérebros: uns entendem por si próprios; os outros discernem o que os primeiros entendem; e os terceiros não entendem nem por si próprios nem pelos outros; os primeiros são excelentíssimos; os segundos excelentes; e os terceiros totalmente inúteis.</p>
+            <p>Eu creio que um dos princípios essenciais da sabedoria é o de se abster das ameaças verbais ou insultos. Tornamo-nos odiados tanto fazendo o bem como fazendo o mal.</p>
+            <p>Os homens têm menos escrúpulos em ofender quem se faz amar do que quem se faz temer, pois o amor é mantido por vínculos de gratidão que se rompem quando deixam de ser necessários, já que os homens são egoístas; mas o temor é mantido pelo medo do castigo, que nunca falha.</p>
+            <p>Nunca foi sensata a decisão de causar desespero nos homens, pois quem não espera o bem não teme o mal. Os homens esquecem mais rapidamente a morte do pai do que a perda do patrimônio. Os homens quando não são forçados a lutar por necessidade, lutam por ambição.</p>
+            <p>As injúrias devem ser feitas todas de uma só vez, a fim de que, saboreando-as menos, ofendam menos: e os benefícios devem ser feitos pouco a pouco, a fim de que sejam mais bem saboreados.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
