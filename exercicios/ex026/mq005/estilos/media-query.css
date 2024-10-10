@@ -11,6 +11,6 @@
         display: inline-block;
     }
     main{
-        width: 768px;
+        max-width: 768px;
     }
 }
